@@ -10,4 +10,5 @@ Introduction to tsx.
 
 What worked for me :
 
-- changing the path to ` C:\Users\<your user name>\AppData\Roaming\npm> npm i typescript --g. run ``` tsc --v ``` to be sure `
+- changing the path to ` C:\Users\<your user name>\AppData\Roaming\npm> npm i typescript --g. -
+- run `tsc --v` to be sure
