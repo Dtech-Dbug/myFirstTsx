@@ -6,7 +6,7 @@ Introduction to tsx.
 
 - run `npm i typescript --g` th e--g flag saves the dependancy globally. After intallation , you can confirm the version by ` tsc --v`
 
-### typescript not working  tsc command not found (Error, troubleshoot)
+### typescript not working properly // tsc command not found (Error, troubleshoot)
 
 #### 1. make sure you are using the latest node v16.7.0.(as of now 20.08.2021) You can dowload it from [NodeJS official](https://nodejs.org/en/). Or use Node version Manager (nvm) to upgrade to the latest node v.
 
