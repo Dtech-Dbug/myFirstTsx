@@ -14,7 +14,7 @@ What worked for me :
 - run `tsc --v` to be sure
 
 ### typescript not working , except for the above path
-#### 1. make sure you are using node v16.7.0. You can dowload it from [NodeJS official](https://nodejs.org/en/). Or use nvm to upgrade to the latest node v.
+#### 1. make sure you are using the latest node v16.7.0.(as of now 20.08.2021) You can dowload it from [NodeJS official](https://nodejs.org/en/). Or use Node version Manager (nvm) to upgrade to the latest node v.
 
 #### installing nvm
 - go to the nvm window repo, [here](https://github.com/coreybutler/nvm-windows/releases/tag/1.1.7).
