@@ -19,3 +19,9 @@ Introduction to tsx.
 
 #### 2. now install typescript and check the version
 - run ``` npm install typescript --g ``` to install it globally and ``` tsc --v``` to check the version of the typescript compiler.
+
+### how typescript works, behind the scenes?
+> typescript is just like javascript on steroids.
+
+- typescript compiler first compiles the .ts file to a .js file to eventually be able to run the codes.
+- then we can run that .js file from node, or IDE 
