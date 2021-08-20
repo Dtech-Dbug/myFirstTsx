@@ -15,7 +15,7 @@ Introduction to tsx.
 - scroll down to the assets section. Then click on nvm-setup.zip.
 - Download, extract , install to have nvm working on your device.
 - run ```nvm version``` to check the version.
-- to upgrade to node latest using nvm, run ``` nvm ls``` to check the list of options. or install and use the  latest version as of now(16.7.0 by ``` nvm install 16.7.0 / nvm use 16.7.0 ```
+- to upgrade to node latest using nvm, run ``` nvm ls``` to check the list of options. or install and use the  latest version as of now(16.7.0) ``` nvm install 16.7.0 / nvm use 16.7.0 ```
 
 #### 2. now install typescript and check the version
 - run ``` npm install typescript --g ``` to install it globally and ``` tsc --v``` to check the version of the typescript compiler.
