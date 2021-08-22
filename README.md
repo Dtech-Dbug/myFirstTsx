@@ -46,5 +46,7 @@ Introduction to tsx.
 ## what and why tsc?
 
 > typescript is javascript , on steroids
-> the browser does not and read typescript codes. so there has to be a some kind of conversion from the typsecript to regular javascript for the browser to read and exec the scripts.
-> **tsc is short for typescript compiler which transpiles the .ts files to their corresponding .js files so the browser can read and execute w/ ease as with normal javascript**
+
+the browser does not and read typescript codes. so there has to be a some kind of conversion from the typsecript to regular javascript for the browser to read and exec the scripts.
+
+**tsc is short for typescript compiler which transpiles the .ts files to their corresponding .js files so the browser can read and execute w/ ease as with normal javascript**
