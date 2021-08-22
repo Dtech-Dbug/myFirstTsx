@@ -27,7 +27,7 @@ Introduction to tsx.
 
 - [Stackoverflow](https://stackoverflow.com/questions/58796490/tsc-ps1-cannot-be-loaded-because-running-scripts-is-disabled-on-this-system)
 
-- exec policies are by default set to unresticted which does not allow scripts to run on the machine. As, a result, in my PS, tsc won't run because of unrestricted operation. What worked for me was an error log in the PS itself.
+- exec policies are by default set to unresticted , for security reasons, which does not allow scripts to run on the machine. As, a result, in my PS, tsc won't run because of unrestricted operation. What worked for me was an error log in the PS itself.
 
 #### steps
 
@@ -47,6 +47,6 @@ Introduction to tsx.
 
 > typescript is javascript , on steroids
 
-the browser does not and read typescript codes. so there has to be a some kind of conversion from the typsecript to regular javascript for the browser to read and exec the scripts.
+the browser doesn't/can't read typescript codes. so there has to be a some kind of conversion from the typsecript to regular javascript for the browser to read and exec the scripts.
 
 **tsc is short for typescript compiler which transpiles the .ts files to their corresponding .js files so the browser can read and execute w/ ease as with normal javascript**
