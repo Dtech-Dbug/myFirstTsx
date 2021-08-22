@@ -12,3 +12,18 @@ What worked for me :
 
 - changing the path to ` C:\Users\<your user name>\AppData\Roaming\npm> npm i typescript --g. -
 - run `tsc --v` to be sure
+
+### execution policy error, powershell
+
+- [check out miscrosoft docs for learning more about execution policy and how and why they are set](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-executionpolicy?view=powershell-7.1)
+
+- [Stackoverflow](https://stackoverflow.com/questions/58796490/tsc-ps1-cannot-be-loaded-because-running-scripts-is-disabled-on-this-system)
+
+- exec policies are by default set to unresticted which does not allow scripts to run on the machine. As, a result, in my PS, tsc won't run because of unrestricted opeartion. What worked for me was an error log in the PS itself.
+
+#### steps
+
+- open windows PS as admin
+- run `Set-ExecutionPolicy -scope currentuser `
+- then you will be set to set a policy : set _unresctricted_ , [it is by default set to restricted which does not let scripts to run]
+- save the changes, by pressing _y_ and you are good to go
