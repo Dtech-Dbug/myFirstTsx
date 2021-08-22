@@ -33,7 +33,7 @@ Introduction to tsx.
 
 - open windows PS as admin
 - run `Set-ExecutionPolicy -scope currentuser `
-- then you will be set to set a policy : set _unresctricted_ , [it is by default set to restricted which does not let scripts to run]
+- then you will be prompted to set a policy : set _unresctricted_ , [it is by default set to restricted which does not let scripts to run]
 - save the changes, by pressing _y_ and you are good to go
 
 #### miscellaneous , for exec policy errors
