@@ -27,3 +27,8 @@ Introduction to tsx.
 - run `Set-ExecutionPolicy -scope currentuser `
 - then you will be set to set a policy : set _unresctricted_ , [it is by default set to restricted which does not let scripts to run]
 - save the changes, by pressing _y_ and you are good to go
+
+#### miscellaneous
+
+- run ` Get-ExceutionPolicy --List` to list all the user scopes
+- run `Get-ExceutionPolicy` to see the effective exec policy set
