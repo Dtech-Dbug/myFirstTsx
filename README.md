@@ -51,9 +51,19 @@ the browser doesn't/can't read typescript codes. so there has to be a some kind 
 
 **tsc is short for typescript compiler which transpiles the .ts files to their corresponding .js files so the browser can read and execute w/ ease as with normal javascript**
 
-## how does typescript work? (generic)
+## typescript work principle (generic)
 
 - write your typescript codes in a .ts file
 - transpile the typescript codes into js , by running the typescript compiler
 - after running tsc, a corresponding js file is created by the compiler.
 - run the js file using `node <filename>.js`
+
+## automate the compilation and runtime 🚀
+
+### typescript
+
+as you may now have guessed, for transpiling the ts codes to js we need to run the tsc cmd everytime we make changes in the ts file. repeatative tasks are mundane. what can be done to track the changes automatically?
+
+- running ` tsc --watch` in the path of the project directory
+
+what the above cmd does is - it watches for every changes made. also throws compile errors in the console, if tsc is watching for every change
