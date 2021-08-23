@@ -72,4 +72,4 @@ nodemon is a package that constantly watches the node env for changes. which pre
 - run ` npm init -y` to initialize an npm
 - install nodemon using ` npm i nodemon`. nodemon should be included in the package.json in your project dir after installation.
 - go to your package.json and edit the script , in the scripts object
-
+  ![screesnhot of package.json](https://drive.google.com/file/d/16N6nrF0ftrxiVz8gkEki1fee5DTWa2QR/view?usp=sharing)
