@@ -10,9 +10,6 @@ Introduction to tsx.
 
 #### 1. make sure you are using the latest node v16.7.0.(as of now 20.08.2021) You can dowload it from [NodeJS official](https://nodejs.org/en/). Or use Node version Manager (nvm) to upgrade to the latest node v.
 
-- changing the path to ` C:\Users\<your user name>\AppData\Roaming\npm> npm i typescript --g. -
-- run `tsc --v` to be sure
-
 #### installing nvm and upgrading to node v16.7.0
 
 - open nvm window repo , [here](https://github.com/coreybutler/nvm-windows/releases)
@@ -67,3 +64,5 @@ as you may now have guessed, for transpiling the ts codes to js we need to run t
 - running ` tsc --watch` in the path of the project directory
 
 what the above cmd does is - it watches for every changes made. also throws compile errors in the console, if tsc is watching for every change
+
+##
