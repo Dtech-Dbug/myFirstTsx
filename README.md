@@ -68,7 +68,7 @@ as you may now have guessed, for transpiling the ts codes to js we need to run t
 
 - running ` tsc --watch` in the path of the project directory
 
-what the above cmd does is - it watches for every changes made. also throws compile errors in the console, if tsc is watching for every change
+what the above cmd does is - it watches for every changes made. also throws compile errors in the console if you make errors and transpile the typescript codes to ot's correspinding javascript, if tsc is watching for every change
 
 ### automate runtime with nodemon
 
