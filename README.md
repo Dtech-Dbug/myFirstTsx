@@ -59,8 +59,8 @@ the browser doesn't/can't read typescript codes. so there has to be a some kind 
 
 it can be done w/ two steps
 
-1.  automate typescript compiler to track all changes in the ts file and transpile the ts codes to js codes.
-1.  automate runtime using nodemon(you need node env for this)
+1. **automate typescript compiler to track all changes in the ts file and transpile the ts codes to js codes.**
+1. **automate runtime using nodemon(you need node env for this).**
 
 ### automate typescript compiler
 
