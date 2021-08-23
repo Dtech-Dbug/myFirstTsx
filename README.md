@@ -1,4 +1,3 @@
-
 # myFirstTsx
 
 Introduction to tsx.
@@ -58,7 +57,12 @@ the browser doesn't/can't read typescript codes. so there has to be a some kind 
 
 ## automate the compilation and runtime 🚀
 
-### typescript
+it can be done w/ two steps
+
+1.  automate typescript compiler to track all changes in the ts file and transpile the ts codes to js codes.
+1.  automate runtime using nodemon(you need node env for this)
+
+### automate typescript compiler
 
 as you may now have guessed, for transpiling the ts codes to js we need to run the tsc cmd everytime we make changes in the ts file. repeatative tasks are mundane. what can be done to track the changes automatically?
 
@@ -75,3 +79,9 @@ nodemon is a package that constantly watches the node env for changes. which pre
 - go to your package.json and edit the script , in the scripts object
 
 ![Screenshot (315)](https://user-images.githubusercontent.com/74761990/130408488-e5d37b11-1af3-491d-a318-c36bc07ea441.png)
+
+- what this line of code means `"start" : "nodemon helloWorld.js"` is everythime you run `npm start or npm run start` nodemon will run and execute the js file specified.
+
+- make sure to add the js file that is transipled from the ts file. in other words, when you run tsc the typescript codes are compiled to javascript codes. you need to specify the the javascript code file in the start script when you are specifying the filename after nodemon.
+
+- now, you do not have to to run `node <filename>.js` everytime you make changes to any of the files.
