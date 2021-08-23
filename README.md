@@ -50,3 +50,10 @@ Introduction to tsx.
 the browser doesn't/can't read typescript codes. so there has to be a some kind of conversion from the typsecript to regular javascript for the browser to read and exec the scripts.
 
 **tsc is short for typescript compiler which transpiles the .ts files to their corresponding .js files so the browser can read and execute w/ ease as with normal javascript**
+
+## how does typescript work? (generic)
+
+- write your typescript codes in a .ts file
+- transpile the typescript codes into js , by running the typescript compiler
+- after running tsc, a corresponding js file is created by the compiler.
+- run the js file using `node <filename>.js`
