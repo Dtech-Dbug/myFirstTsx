@@ -65,4 +65,10 @@ as you may now have guessed, for transpiling the ts codes to js we need to run t
 
 what the above cmd does is - it watches for every changes made. also throws compile errors in the console, if tsc is watching for every change
 
-##
+### automate runtime with nodemon
+
+nodemon is a package that constantly watches the node env for changes. which prevents the repeatative execution of `node <filename>.js` to track and reflect changes.
+
+- run ` npm init -y` to initialize an npm
+- install nodemon using ` npm i nodemon`. nodemon should be included in the package.json in your project dir after installation.
+- go to your package.json and edit the script , in the scripts object
