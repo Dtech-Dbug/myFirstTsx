@@ -1,3 +1,4 @@
+
 # myFirstTsx
 
 Introduction to tsx.
@@ -73,4 +74,4 @@ nodemon is a package that constantly watches the node env for changes. which pre
 - install nodemon using ` npm i nodemon`. nodemon should be included in the package.json in your project dir after installation.
 - go to your package.json and edit the script , in the scripts object
 
-  ![screesnhot of package.json](https://drive.google.com/file/d/16N6nrF0ftrxiVz8gkEki1fee5DTWa2QR/view?usp=sharing)
+![Screenshot (315)](https://user-images.githubusercontent.com/74761990/130408488-e5d37b11-1af3-491d-a318-c36bc07ea441.png)
