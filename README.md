@@ -85,3 +85,7 @@ nodemon is a package that constantly watches the node env for changes. which pre
 - make sure to add the js file that is transipled from the ts file. in other words, when you run tsc the typescript codes are compiled to javascript codes. you need to specify the the javascript code file in the start script when you are specifying the filename after nodemon.
 
 - now, you do not have to to run `node <filename>.js` everytime you make changes to any of the files.
+
+#### tsconfig.json? 🤯
+
+the tsconfig.json is a file that shapes the compile behaviour. it can be edited/customized as per requirements.
