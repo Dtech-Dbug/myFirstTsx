@@ -88,4 +88,4 @@ nodemon is a package that constantly watches the node env for changes. which pre
 
 #### tsconfig.json? 🤯
 
-the tsconfig.json is a file that shapes the compile behaviour. it can be edited/customized as per requirements.
+the tsconfig.json is a file that defines the tsc compile behaviour. it can be edited/customized as per requirements.
