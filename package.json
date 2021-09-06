@@ -4,13 +4,12 @@
   "description": "Intruduction to typeScript",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon helloWorld.js"
+    "start": "node helloWorld.js"
   },
   "author": "Dtech-Dbug",
   "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
-    "nodemon": "^2.0.12",
     "readline-sync": "^1.4.10",
     "typescript": "^4.3.5"
   },
@@ -22,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Dtech-Dbug/myFirstTsx/issues"
   },
-  "homepage": "https://github.com/Dtech-Dbug/myFirstTsx#readme"
+  "homepage": "https://github.com/Dtech-Dbug/myFirstTsx#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }
