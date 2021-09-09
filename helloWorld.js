@@ -12,7 +12,7 @@ function reverse(number) {
         // ? step 3 : reduce the nums and iterate through the decreasing nums, else the loop becomes infinte
         nums = Math.floor(nums / 10);
     }
-    // * defining the text varible to be of type message which is text (line : 6)
+    // * defining the text varible to be of type message which is text (def. line : 6)
     let text;
     // * create an object for a decent representation in the console, using console.table
     let output = {
@@ -25,5 +25,4 @@ function reverse(number) {
         : (output.palindrome = "It is not a palindrome");
     console.table(output);
 }
-reverse(456);
 //# sourceMappingURL=helloWorld.js.map

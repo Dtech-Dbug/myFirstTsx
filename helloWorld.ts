@@ -22,7 +22,7 @@ function reverse(number: digits) {
     nums = Math.floor(nums / 10);
   }
 
-  // * defining the text varible to be of type message which is text (line : 6)
+  // * defining the text varible to be of type message which is text (def. line : 6)
   let text: message;
 
   // * create an object for a decent representation in the console, using console.table
@@ -38,5 +38,3 @@ function reverse(number: digits) {
 
   console.table(output);
 }
-
-reverse(456);
