@@ -92,6 +92,12 @@ the tsconfig.json is a file that defines the tsc compile behaviour. it can be ed
 
 ### wriitng your first typescript codes to solve a coding problem
 
-now that we know what typescript is and little bit of how it works behinf the scenes, we can actually get started w/ writing our very first typescript codes.
+now that we know what typescript is and little bit of how it works behind the scenes, we can actually get started w/ writing our very first typescript codes.
 
 excited?
+
+**_the problem we are gona solve today is the classic ol' reverse also and palindrome checker._**
+
+for the codes , please refer to the helloWorld.ts file for the lines of code and also they are properly commented for better understanding.
+
+have ideas to make it better? feel free to reach out to me.
