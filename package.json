@@ -4,7 +4,7 @@
   "description": "Intruduction to typeScript",
   "main": "index.js",
   "scripts": {
-    "start": "node helloWorld.js"
+    "start": "nodemon helloWorld.js"
   },
   "author": "Dtech-Dbug",
   "license": "MIT",
