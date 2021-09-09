@@ -1,6 +1,7 @@
 // TODO : reverse numbers and palindrome checker
 
 // ! set the type of variables, for DRY code
+
 type digits = number;
 type message = string;
 
@@ -21,8 +22,10 @@ function reverse(number: digits) {
     nums = Math.floor(nums / 10);
   }
 
+  // * defining the text varible to be of type message which is text (line : 6)
   let text: message;
 
+  // * create an object for a decent representation in the console, using console.table
   let output = {
     number: number,
     reversed: reversedNumber,
@@ -36,4 +39,4 @@ function reverse(number: digits) {
   console.table(output);
 }
 
-reverse(777);
+reverse(456);
